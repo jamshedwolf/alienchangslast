@@ -1,0 +1,56 @@
+.p {
+  font-size: calc(12px + 0.3vw);
+}
+
+.h {
+  font-size: calc(40px + 0.2vw);
+}
+.bg {
+  background-image: url(C:\Users\hp\Desktop\project\pro\src\assets\images\bghome.svg);
+}
+.atomicage {
+  font-family: "Atomic Age", cursive;
+}
+.exo {
+  font-family: "Exo 2", cursive;
+}
+.gglobe {
+  background: url("./assets/images/world.svg") !important;
+}
+
+
+
+.slider .slide-1 {
+  animation: slide 10s linear infinite;
+  /* overflow: hidden; */
+}
+.slider .slide-2 {
+  animation: slide2 10s linear infinite;
+
+
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+html{
+scroll-behavior: smooth;
+
+
+
+}

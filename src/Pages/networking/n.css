@@ -1,0 +1,12 @@
+.custom
+
+{
+    width: 170px !important;
+   
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}

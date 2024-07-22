@@ -1,0 +1,16 @@
+.custom-card {
+    width: 270px !important;
+    display: flex !important;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.custom-arrow {
+    font-size: 20px; /* Adjust size */
+    color: rgb(30, 255, 0); /* Change arrow color */
+    z-index: 1;
+}
