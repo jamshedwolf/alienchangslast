@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PDF from "../../assets/paper.pdf"
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -135,7 +135,7 @@ function Mint1() {
       
 
     </div>
-    <button className="flex w-[300px] rounded-full pl-4 py-1 items-center justify-between hover:text-white  hover:border-white hover:bg-[#69AF00] bg-[#33373D] border group gap-4 transition-all ease-linear duration-200 hover:scale-105 text-[#B9954F] border-[#B9954F]  px-1"> GreenPapers & Tokenomics <span className="rounded-full bg-[#B9954F] px-2 py-2 border group-hover:bg-white group-hover:text-[#69AF00] group-hover:border-white  border-[#B9954F] text-[#33373D] font-bold ">< IoIosArrowForward/> </span>  </button>
+    <a target='_blank' href={PDF} className="">       <button className="flex w-[300px] rounded-full pl-4 py-1 items-center justify-between hover:text-white  hover:border-white hover:bg-[#69AF00] bg-[#33373D] border group gap-4 text-[#B9954F] border-[#B9954F] transition-all ease-linear duration-200 hover:scale-105  px-1"> GreenPapers & Tokenomics <span className="rounded-full bg-[#B9954F] px-2 py-2 border group-hover:bg-white group-hover:text-[#69AF00] group-hover:border-white  border-[#B9954F] text-[#33373D] font-bold ">< IoIosArrowForward /> </span>  </button></a>
 
     </div>
 </div>

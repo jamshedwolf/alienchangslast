@@ -15,14 +15,17 @@ function Accordin() {
     }
 
     const accordionData = [
-        { title: "What are the NFTs?", content: "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis $ Nulla dapibus urna volutpat venenatis, risus faucibus." },
-        { title: "How do i get NFTs?", content: "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus." },
-        { title: "How we can buy and invest NFT ?", content: "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus." },
-        { title: "Where we can buy and sell NFts ?", content: "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus." },
-        { title: "Where we can buy and sell NFts ?", content: "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus." },
-        { title: "Where we can buy and sell NFts ?", content: "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus." },
-        // Add more items here as needed
+        { title: "What is AlienFlowSpace DAO?", content: "AlienFlowSpace DAO is a decentralized autonomous organization that combines elements of DeFi, DeSci, GameFi, ReFi, RWA, offering a unique platform where users can access diverse experiences, products, and services, fully personalized and sustainable." },
+        { title: "What is the AlienFlowSpace CrypToken?", content: "The AlienFlowSpace CrypToken is our digital currency that allows users to access liquidity pools and redeem experiences, products, and services within our spaces, including Academy, Clubs, and CoNetWorKing." },
+        { title: "How can I obtain the CrypToken?", content: "Users can obtain the CrypToken through exchanges on cryptocurrency platforms, participating in activities within the DAO, or by providing liquidity." },
+        { title: "What are liquidity pools?", content: "Liquidity pools are pools that allow users to provide liquidity to the platform and fund initiatives in exchange for rewards. These pools are essential for the functioning of our ecosystem." },
+        { title: "What types of experiences and products can I redeem?", content: "Users can redeem the CrypToken & NFTs for various experiences, products, and services in our spaces, which include access to exclusive, fully personalized and sustainable courses, events, experiences, training, products..." },
+        { title: "How do NFT collections work?", content: "The NFT collections on AlienFlowSpace offer users exclusive access to exclusive, fully personalized and sustainable activities, courses, events, experiences, training, within our spaces. Each NFT may have unique benefits, advantages, and privileges associated with it." },
+        { title: "What is DeFi, DeSci, GameFi, ReFi, RWA?", content: "DeFi: Decentralized finance that allows transactions without intermediaries. DeSci: Decentralized science that promotes collaboration and research funding. GameFi: Games that integrate financial elements, allowing players to win money. ReFi: Regenerative finance that seeks to create a positive impact on the environment. RWA: Tokenization of real-world assets." },
+        { title: "How is the security of my funds ensured?", content: "Security is a priority at AlienFlowSpace DAO. We use advanced security protocols and regular audits to protect our users' funds. Our recommendation is self-custody, although it is always the user's final responsibility to ensure they use secure wallets and keep their security keys and seed phrases safe when connecting to our DAPP and sign smart contract transactions." },
+        { title: "Where can I get more information?", content: "For more updated information about AlienFlowSpace DAO, please visit our official website or our official social media and channels. If you want more details on a specific topic or need additional help, do not hesitate to contact and ask to answer all your questions!" }
     ];
+    
 
     return (
         <div

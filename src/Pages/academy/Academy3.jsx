@@ -75,7 +75,7 @@ function Academy3() {
   return (
     <div className="w-full py-10 lg:max-w-[1200px] mx-auto overflow-x-hidden ">
 
-        <div className="atomicage h text-[#03C649]  m-10 text-center">Acc€$$ CrypTokens & Nfts</div>
+        <div className="atomicage h text-[#03C649] p-4   m-10 text-center">Acc€$$ CrypTokens & Nfts</div>
       <Slider className="mx-auto" {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="relative mx-6 exo h-[300px] gap-5 overflow-hidden border custom-card  sm:mx-5 bg-[#03C649] rounded-[20px] sm:rounded-[40px]">
